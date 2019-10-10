@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Inaccessible Website: A website with sample accessibility issues</title>
+  <meta name="keywords" content="a11y, accessibility, accessibility testing">
+  <meta name="description" content="Inaccessible Website: A website with sample accessibility issues">
+  <meta name="author" content="N.E.Lilly">
+  <link href="base.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+<header class="site__header">
+  <!-- <a href="#main" class="skip-nav">skip navigation</a> -->
+  <nav id="top" class="helm">
+    <span class="helm__item helm__title">An Inaccessible Website</span>
+    <a href="#" id="main_nav" class="helm__item" title="main navigation"><svg xmlns="http://www.w3.org/2000/svg" height="36" width="40" viewBox="0 0 100 90"><path d="M95.065 49.609a2.07 2.07 0 0 0-.414-1.094c-.382-.504-.997-.839-1.667-.99-1.571-.354-3.257.488-4.786.588-1.096.072-2.173.157-3.267.086-.116-.516-.619-.913-1.253-.913h-1.645a31.946 31.946 0 0 0-7.385-17.833l1.162-1.162c.448-.448.523-1.085.24-1.532.724-.824 1.545-1.525 2.371-2.249 1.152-1.01 2.939-1.607 3.8-2.968.497-.786.657-1.719.303-2.474-.212-.452-.604-.823-.975-1.141a2.07 2.07 0 0 0-1.067-.481c-.627-.086-1.298.111-1.879.478-1.361.861-1.958 2.648-2.968 3.8-.724.826-1.425 1.647-2.249 2.371-.447-.283-1.084-.208-1.532.24l-1.162 1.162a31.949 31.949 0 0 0-17.833-7.385v-1.645c0-.634-.397-1.137-.913-1.253-.071-1.094.014-2.171.086-3.267.1-1.529.942-3.214.588-4.786-.204-.907-.751-1.68-1.535-1.964-.47-.17-1.01-.155-1.496-.117a2.07 2.07 0 0 0-1.094.414c-.504.382-.839.997-.99 1.667-.354 1.571.488 3.257.588 4.786.072 1.096.157 2.173.086 3.267-.516.116-.913.619-.913 1.253v1.645a31.946 31.946 0 0 0-17.833 7.385l-1.162-1.162c-.448-.448-1.085-.523-1.532-.24-.824-.724-1.525-1.545-2.249-2.371-1.01-1.152-1.607-2.939-2.968-3.8-.786-.497-1.719-.657-2.474-.303-.452.212-.823.604-1.141.975a2.07 2.07 0 0 0-.481 1.067c-.086.627.111 1.298.478 1.879.861 1.361 2.648 1.958 3.8 2.968.826.724 1.647 1.425 2.371 2.249-.283.447-.208 1.084.24 1.532l1.162 1.162a31.949 31.949 0 0 0-7.385 17.833H16.45c-.634 0-1.137.397-1.253.913-1.094.071-2.171-.014-3.267-.086-1.529-.1-3.214-.942-4.786-.588-.907.204-1.68.751-1.964 1.535-.17.47-.155 1.01-.117 1.496.03.388.167.768.414 1.094.382.504.997.839 1.667.99 1.571.354 3.257-.488 4.786-.588 1.096-.072 2.173-.157 3.267-.086.116.516.619.913 1.253.913h1.645a31.946 31.946 0 0 0 7.385 17.833l-1.162 1.162c-.448.448-.523 1.085-.24 1.532-.724.824-1.545 1.525-2.371 2.249-1.152 1.01-2.939 1.607-3.8 2.968-.497.786-.657 1.719-.303 2.474.212.452.604.823.975 1.141a2.07 2.07 0 0 0 1.067.481c.627.086 1.298-.111 1.879-.478 1.361-.861 1.958-2.648 2.968-3.8.724-.826 1.425-1.647 2.249-2.371.447.283 1.084.208 1.532-.24l1.162-1.162a31.949 31.949 0 0 0 17.833 7.385v1.645c0 .634.397 1.137.913 1.253.071 1.094-.014 2.171-.086 3.267-.1 1.529-.942 3.214-.588 4.786.204.907.751 1.68 1.535 1.964.47.17 1.01.155 1.496.117a2.07 2.07 0 0 0 1.094-.414c.504-.382.839-.997.99-1.667.354-1.571-.488-3.257-.588-4.786-.072-1.096-.157-2.173-.086-3.267.516-.116.913-.619.913-1.253v-1.645a31.946 31.946 0 0 0 17.833-7.385l1.162 1.162c.448.448 1.085.523 1.532.24.824.724 1.525 1.545 2.249 2.371 1.01 1.152 1.607 2.939 2.968 3.8.786.497 1.719.657 2.474.303.452-.212.823-.604 1.141-.975a2.07 2.07 0 0 0 .481-1.067c.086-.627-.111-1.298-.478-1.879-.861-1.361-2.648-1.958-3.8-2.968-.826-.724-1.647-1.425-2.371-2.249.283-.447.208-1.084-.24-1.532l-1.162-1.162a31.949 31.949 0 0 0 7.385-17.833h1.645c.634 0 1.137-.397 1.253-.913 1.094-.071 2.171.014 3.267.086 1.529.1 3.214.942 4.786.588.907-.204 1.68-.751 1.964-1.535.167-.47.152-1.01.114-1.496zm-71.626 1.348a.875.875 0 1 1 0-1.75.875.875 0 0 1 0 1.75zm44.833-20.32a.874.874 0 1 1 1.237 1.235.874.874 0 0 1-1.237-1.235zm-16.383 1.355c.545-.088.971-.609.971-1.267v-1.54a20.973 20.973 0 0 1 10.001 4.144l-1.088 1.088c-.434.434-.517 1.045-.266 1.49l-5.367 5.367c-.445-.251-1.056-.168-1.49.266l-.483.483a8.94 8.94 0 0 0-1.307-.546v-.678c0-.658-.426-1.179-.971-1.267v-7.54zm-1.825-9.41a.875.875 0 1 1 0 1.75.875.875 0 0 1 0-1.75zm-2.796 6.603v1.54c0 .614.373 1.105.865 1.242v7.59c-.492.137-.865.628-.865 1.242v.678a8.894 8.894 0 0 0-1.307.546l-.483-.483c-.465-.465-1.135-.532-1.583-.209L38.563 36c.323-.448.256-1.118-.209-1.583l-1.088-1.088a20.982 20.982 0 0 1 10.002-4.144zm-16.649 1.452a.874.874 0 1 1 1.237 1.235.874.874 0 0 1-1.237-1.235zm2.693 6.647l1.088 1.088c.434.434 1.045.517 1.49.266l5.367 5.367c-.251.445-.168 1.056.266 1.49l.483.483a8.94 8.94 0 0 0-.546 1.307h-.678c-.658 0-1.179.426-1.267.971h-7.54c-.088-.545-.609-.971-1.267-.971h-1.54a20.963 20.963 0 0 1 4.144-10.001zm-1.456 32.243a.874.874 0 1 1-1.237-1.235.874.874 0 0 1 1.237 1.235zm2.543-7.735l-1.088 1.088a20.963 20.963 0 0 1-4.144-10.001h1.54c.614 0 1.105-.373 1.242-.865h7.59c.137.492.628.865 1.242.865h.678c.147.453.332.889.546 1.307l-.483.483c-.465.465-.532 1.135-.209 1.583l-5.332 5.332c-.447-.324-1.117-.257-1.582.208zm13.84 6.38c-.545.088-.971.609-.971 1.267v1.54a20.973 20.973 0 0 1-10.001-4.144l1.088-1.088c.434-.434.517-1.045.266-1.49l5.367-5.367c.445.251 1.056.168 1.49-.266l.483-.483a8.94 8.94 0 0 0 1.307.546v.678c0 .658.426 1.179.971 1.267v7.54zm1.825 9.41a.875.875 0 1 1 0-1.75.875.875 0 0 1 0 1.75zm0-24.773a2.727 2.727 0 1 1 0-5.454 2.727 2.727 0 0 1 0 5.454zm2.797 18.17v-1.54c0-.614-.373-1.104-.865-1.242v-7.59c.492-.137.865-.628.865-1.242v-.678a8.894 8.894 0 0 0 1.307-.546l.483.483c.465.465 1.135.532 1.583.209l5.332 5.332c-.323.448-.256 1.118.209 1.583l1.088 1.088a21 21 0 0 1-10.002 4.143zm16.649-1.452a.874.874 0 1 1-1.237-1.235.874.874 0 0 1 1.237 1.235zm-2.693-6.648l-1.088-1.088c-.434-.434-1.045-.517-1.49-.266l-5.367-5.367c.251-.445.168-1.056-.266-1.49l-.483-.483a8.94 8.94 0 0 0 .546-1.307h.678c.658 0 1.179-.426 1.267-.971h7.54c.088.545.609.971 1.267.971h1.54a20.975 20.975 0 0 1-4.144 10.001zm2.604-15.594c-.614 0-1.104.373-1.242.865h-7.59c-.137-.492-.628-.865-1.242-.865h-.678a8.894 8.894 0 0 0-.546-1.307l.483-.483c.465-.465.532-1.135.209-1.583l5.332-5.332c.448.323 1.118.256 1.583-.209l1.088-1.088a20.959 20.959 0 0 1 4.144 10.001h-1.541zm7.268 3.672a.875.875 0 1 1 0-1.75.875.875 0 0 1 0 1.75z"/></svg></a>
+    <a href="#" class="helm__item" title="more">&#x22ee;</a>
+  </nav>
+</header>
+<main id="main" class="main">
+  <header class="main__header">
+    <article class="hero">
+      <section class="hero__stage">
+        <h1>An Inaccessible Website</h1>
+        <div class="hero__blurb">
+          <h2>Impairments are contextual.</h2>
+          <p>Visual. Audial. Motor. Cognitive.</p>
+        </div>
+        <div class="hero__blurb">
+          <h2>???.</h2>
+          <p>Find all of the accessibility issues.</p>
+        </div>
+      </section>
+    </article>
+  </header>
+  <article>
+    <!-- <h1>Elements</h1> -->
+    <p>&#9755; HTML entities are clever, but sometimes the screen reader will read them in unexpected ways.</p>
+    <!-- <h2>Image</h2> -->
+    <!-- <h2>Table</h2> -->
+    <section id="nvda-with-firefox">
+      <table>
+        <caption><h3>NVDA Key Commands</h3></caption>
+          <tbody><tr>
+            <th scope="col"><strong>Keystroke</strong></th>
+            <th scope="col"><strong>Purpose</strong></th>
+          </tr>
+          <tr>
+            <td><kbd>Control</kbd> + <kbd>Alt</kbd> + <kbd>N</kbd></td>
+            <td>Turn NVDA on</td>
+          </tr>
+          <tr>
+            <td><kbd>Control</kbd></td>
+            <td>Stop talking</td>
+          </tr>
+          <tr>
+            <td><kbd>&darr;</kbd> </td>
+            <td>Read next item</td>
+          </tr>
+          <tr>
+            <td><kbd>NVDA</kbd> + <kbd>&darr;</kbd></td>
+            <td>Read continuously from this point on</td>
+          </tr>
+          <tr>
+            <td><kbd>NVDA</kbd> + <kbd>F7</kbd></td>
+            <td>Show list of links, headings, and landmarks</td>
+          </tr>
+          <tr>
+            <td><kbd>H</kbd></td>
+            <td>Go to next heading</td>
+          </tr>
+          <tr>
+            <td><kbd>D</kbd></td>
+            <td>Go to next landmark</td>
+          </tr>
+          <tr>
+            <td><kbd>T</kbd></td>
+            <td>Go to next table</td>
+          </tr>
+          <tr>
+            <td><kbd>Control</kbd> + <kbd>Alt</kbd> + Arrow keys</td>
+            <td>Navigate table cells</td>
+          </tr>
+          <tr>
+            <td><kbd>NVDA</kbd> + <kbd>Space</kbd></td>
+            <td>Toggle between focus mode (for forms and custom ARIA/JavaScript widgets) and browse mode (for reading/navigating normally)</td>
+          </tr>
+          <tr>
+            <td><kbd>NVDA</kbd> + <kbd>Q</kbd></td>
+            <td>Turn NVDA off</td>
+          </tr>
+        </tbody>
+      </table>
+      <aside class="card card-warning">
+        <p>&#9755; The <kbd>NVDA</kbd> key could be <kbd>Insert</kbd> or <kbd>CAPS LOCK</kbd> depending on your settings.</p>
+      </aside>
+    </section>
+    <!-- <h2>Graph</h2> -->
+    <!-- <h2>Gauge</h2> -->
+    <article>
+      <section>
+        <svg viewBox="0 0 120 120" class="chart-gauge" fill="none" stroke-width="20">
+          <defs>
+            <linearGradient id="linear" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop offset="0%"   stop-color="#332288"/>
+              <stop offset="100%" stop-color="#66f"/>
+            </linearGradient>
+            <linearGradient id="linear2" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop offset="0%"   stop-color="#882255"/>
+              <stop offset="100%" stop-color="#f66"/>
+            </linearGradient>
+          </defs>
+          <circle class="chart-gauge-base" r="57.32" cx="60" cy="60"></circle>
+          <circle class="chart-gauge-secondary" transform="rotate(-90 60 60)" stroke-dasharray="320 360" stroke-dashoffset="320" r="57.32" cx="60" cy="60"></circle>
+          <circle class="chart-gauge-primary" transform="rotate(-90 60 60)" stroke-dasharray="180 360" stroke-dashoffset="180" r="57.32" cx="60" cy="60"></circle>
+          <line stroke="#999" stroke-linecap="round"stroke-width=".25" x1="20" y1="60" x2="100" y2="60"></line>
+          <text x="60" y="66" dx="0" dy="0.66em" class="chart-gauge-message"></text>
+          <text x="60" y="20" dx="0" dy="1em" class="chart-gauge-label">2.5<tspan class="chart-gauge-units">GB</tspan></text>
+          <text x="60" y="66" fill="none" stroke="none">of</text>
+          <text x="60" y="80" dx="0" dy="0.33em" class="chart-gauge-label">5<tspan class="chart-gauge-units">GB</tspan></text>
+        </svg>
+      </section>
+    </article>
+    <!-- Forms, Inputs, Validations -->
+    <h3>Contact</h3>
+    <form>
+      <fieldset>
+        <legend>Contact</legend>
+        <input type="text" name="name" placeholder="Enter Name" value="" />
+        <input type="text" email="email" value="E-mail" />
+        <input type="checkbox" />
+        <input type="radio" />
+        <textarea name="emailBody"></textarea>
+        <button type="submit">SUBMIT IMAGE</button>
+      </fieldset>
+    </form>
+
+    <!-- Carousel -->
+    <article>
+      <h2><em>Astronomy</em> Picture of the Day</h2>
+      <div class="carousel">
+        <div class="carousel__slides fade">
+          <div class="carousel__numbertext">1 / 4</div>
+          <img src="images/lastring_cassini_960.jpg">
+          <div class="carousel__text">Saturn at Night</div>
+        </div>
+        <div class="carousel__slides fade">
+          <div class="carousel__numbertext">2 / 4</div>
+          <img src="images/giganticjet_chang_960.jpg">
+          <div class="carousel__text">Gigantic Jet Lightning over India</div>
+        </div>
+        <div class="carousel__slides fade">
+          <div class="carousel__numbertext">3 / 4</div>
+          <img src="images/longstorm_cassini_960.jpg">
+          <div class="carousel__text">A Long Storm System on Saturn</div>
+        </div>
+        <div class="carousel__slides fade">
+          <div class="carousel__numbertext">4 / 4</div>
+          <img src="images/jupiterabyss_junoeichstadt_960.jpg">
+          <div class="carousel__text">Jupiter Abyss</div>
+        </div>
+        <a class="carousel__prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="carousel__next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <div style="text-align:center">
+        <span class="carousel__dot" onclick="currentSlide(1)"></span>
+        <span class="carousel__dot" onclick="currentSlide(2)"></span>
+        <span class="carousel__dot" onclick="currentSlide(3)"></span>
+        <span class="carousel__dot" onclick="currentSlide(4)"></span>
+      </div>
+    </article>
+
+    <article>
+      <h2><em>Moon</em> Gallery</h2>
+      <ul class="gallery">
+        <li class="gallery__item"><a href="#" onclick="gallery('images/GPN-2000-001274.jpg')"><img src="images/9457842193_13dd818029_z.jpg" /></a></li>
+        <li class="gallery__item"><a href="#"><img src="images/9457842193_13dd818029_z.jpg" onclick="gallery('images/9457842193_13dd818029_z.jpg')" /></a></li>
+        <li class="gallery__item"><a href="#"><img src="images/9457842193_13dd818029_z.jpg" onclick="gallery('images/jupiterabyss_junoeichstadt_960.jpg')" /></a></li>
+        <li class="gallery__item"><a href="#"><img src="images/9457842193_13dd818029_z.jpg" onclick="gallery('images/longstorm_cassini_960.jpg')" /></a></li>
+        <li class="gallery__item"><a href="#"><img src="images/9457842193_13dd818029_z.jpg" onclick="gallery('images/giganticjet_chang_960.jpg')" /></a></li>
+        <li class="gallery__item"><a href="#"><img src="images/9457842193_13dd818029_z.jpg" onclick="gallery('images/lastring_cassini_960.jpg')" /></a></li>
+        <li class="gallery__item"><a href="#"><img src="images/9457842193_13dd818029_z.jpg" onclick="gallery('images/GPN-2000-001274.jpg')" /></a></li>
+        <li class="gallery__item"><a href="#"><img src="images/9457842193_13dd818029_z.jpg" onclick="gallery('images/GPN-2000-001274.jpg')" /></a></li>
+        <li class="gallery__item"><a href="#"><img src="images/9457842193_13dd818029_z.jpg" onclick="gallery('images/GPN-2000-001274.jpg')" /></a></li>
+      </ul>
+      <section id="galleryStage"></section>
+    </article>
+
+    <h2>Tabs</h2>
+    <h2>Accordion</h2>
+  </article>
+  <article>
+    <section>
+      <h2>Projects</h2>
+      <table class="data">
+        <caption class="data__caption">
+          Data Table
+        </caption>
+        <thead class="data__thead">
+          <tr class="data__tr">
+            <th class="data__th">&times;</th>
+            <th class="data__th">First Column</th>
+            <th class="data__th">Second Column</th>
+            <th class="data__th">Third Column</th>
+          </tr>
+        </thead>
+        <tbody class="data__tbody">
+          <tr class="data__tr">
+            <th class="data__th">First Row</th>
+            <td class="data__td">First: First Cell</td>
+            <td class="data__td">First: Second Cell</td>
+            <td class="data__td">First: Third Cell</td>
+          </tr>
+          <tr class="data__tr">
+            <th class="data__th">Second Row</th>
+            <td class="data__td">Second: First Cell</td>
+            <td class="data__td">Second: Second Cell</td>
+            <td class="data__td">Second: Third Cell</td>
+          </tr>
+          <tr class="data__tr">
+            <th class="data__th">Third Row</th>
+            <td class="data__td">Third: First Cell</td>
+            <td class="data__td">Third: Second Cell</td>
+            <td class="data__td">Third: Third Cell</td>
+          </tr>
+        </tbody>
+        <tfoot class="data__tfoot">
+          <tr class="data__tr">
+            <th class="data__th">Table Foot Cell</th>
+            <th class="data__th">Table Foot Cell</th>
+            <th class="data__th">Table Foot Cell</th>
+            <th class="data__th">Table Foot Cell</th>
+          </tr>
+        </tfoot>
+      </table>
+    </section>
+  </article>
+  <aside class="main__aside">
+    <h3>Resources</h3>
+    <h4>Deque</h4>
+    <p>If you could see the earth illuminated when you were in a place as dark as night, it would look to you more splendid than the moon.</p>
+    <h4>WAVE</h4>
+    <p>If you could see the earth illuminated when you were in a place as dark as night, it would look to you more splendid than the moon.</p>
+  </aside>
+  <footer class="main__footer"><p>Main Footer</p></footer>
+</main>
+<footer class="site__footer">
+  <section class="site__identification">
+  <a href="#top" class="top-nav" title="go to top">&#x2191; <span class="--vh">back to top</span></a>
+    <h2>An Inaccessible Website</h2>
+    <p>If you could see the earth illuminated when you were in a place as dark as night, it would look to you more splendid than the moon.</p>
+  </section>
+  <noscript>
+    <section id="navigation" class="site__navigation">
+      <h2><svg height="42" width="42" viewBox="0 0 100 100"><path d="M95.065 49.609a2.07 2.07 0 0 0-.414-1.094c-.382-.504-.997-.839-1.667-.99-1.571-.354-3.257.488-4.786.588-1.096.072-2.173.157-3.267.086-.116-.516-.619-.913-1.253-.913h-1.645a31.946 31.946 0 0 0-7.385-17.833l1.162-1.162c.448-.448.523-1.085.24-1.532.724-.824 1.545-1.525 2.371-2.249 1.152-1.01 2.939-1.607 3.8-2.968.497-.786.657-1.719.303-2.474-.212-.452-.604-.823-.975-1.141a2.07 2.07 0 0 0-1.067-.481c-.627-.086-1.298.111-1.879.478-1.361.861-1.958 2.648-2.968 3.8-.724.826-1.425 1.647-2.249 2.371-.447-.283-1.084-.208-1.532.24l-1.162 1.162a31.949 31.949 0 0 0-17.833-7.385v-1.645c0-.634-.397-1.137-.913-1.253-.071-1.094.014-2.171.086-3.267.1-1.529.942-3.214.588-4.786-.204-.907-.751-1.68-1.535-1.964-.47-.17-1.01-.155-1.496-.117a2.07 2.07 0 0 0-1.094.414c-.504.382-.839.997-.99 1.667-.354 1.571.488 3.257.588 4.786.072 1.096.157 2.173.086 3.267-.516.116-.913.619-.913 1.253v1.645a31.946 31.946 0 0 0-17.833 7.385l-1.162-1.162c-.448-.448-1.085-.523-1.532-.24-.824-.724-1.525-1.545-2.249-2.371-1.01-1.152-1.607-2.939-2.968-3.8-.786-.497-1.719-.657-2.474-.303-.452.212-.823.604-1.141.975a2.07 2.07 0 0 0-.481 1.067c-.086.627.111 1.298.478 1.879.861 1.361 2.648 1.958 3.8 2.968.826.724 1.647 1.425 2.371 2.249-.283.447-.208 1.084.24 1.532l1.162 1.162a31.949 31.949 0 0 0-7.385 17.833H16.45c-.634 0-1.137.397-1.253.913-1.094.071-2.171-.014-3.267-.086-1.529-.1-3.214-.942-4.786-.588-.907.204-1.68.751-1.964 1.535-.17.47-.155 1.01-.117 1.496.03.388.167.768.414 1.094.382.504.997.839 1.667.99 1.571.354 3.257-.488 4.786-.588 1.096-.072 2.173-.157 3.267-.086.116.516.619.913 1.253.913h1.645a31.946 31.946 0 0 0 7.385 17.833l-1.162 1.162c-.448.448-.523 1.085-.24 1.532-.724.824-1.545 1.525-2.371 2.249-1.152 1.01-2.939 1.607-3.8 2.968-.497.786-.657 1.719-.303 2.474.212.452.604.823.975 1.141a2.07 2.07 0 0 0 1.067.481c.627.086 1.298-.111 1.879-.478 1.361-.861 1.958-2.648 2.968-3.8.724-.826 1.425-1.647 2.249-2.371.447.283 1.084.208 1.532-.24l1.162-1.162a31.949 31.949 0 0 0 17.833 7.385v1.645c0 .634.397 1.137.913 1.253.071 1.094-.014 2.171-.086 3.267-.1 1.529-.942 3.214-.588 4.786.204.907.751 1.68 1.535 1.964.47.17 1.01.155 1.496.117a2.07 2.07 0 0 0 1.094-.414c.504-.382.839-.997.99-1.667.354-1.571-.488-3.257-.588-4.786-.072-1.096-.157-2.173-.086-3.267.516-.116.913-.619.913-1.253v-1.645a31.946 31.946 0 0 0 17.833-7.385l1.162 1.162c.448.448 1.085.523 1.532.24.824.724 1.525 1.545 2.249 2.371 1.01 1.152 1.607 2.939 2.968 3.8.786.497 1.719.657 2.474.303.452-.212.823-.604 1.141-.975a2.07 2.07 0 0 0 .481-1.067c.086-.627-.111-1.298-.478-1.879-.861-1.361-2.648-1.958-3.8-2.968-.826-.724-1.647-1.425-2.371-2.249.283-.447.208-1.084-.24-1.532l-1.162-1.162a31.949 31.949 0 0 0 7.385-17.833h1.645c.634 0 1.137-.397 1.253-.913 1.094-.071 2.171.014 3.267.086 1.529.1 3.214.942 4.786.588.907-.204 1.68-.751 1.964-1.535.167-.47.152-1.01.114-1.496zm-71.626 1.348a.875.875 0 1 1 0-1.75.875.875 0 0 1 0 1.75zm44.833-20.32a.874.874 0 1 1 1.237 1.235.874.874 0 0 1-1.237-1.235zm-16.383 1.355c.545-.088.971-.609.971-1.267v-1.54a20.973 20.973 0 0 1 10.001 4.144l-1.088 1.088c-.434.434-.517 1.045-.266 1.49l-5.367 5.367c-.445-.251-1.056-.168-1.49.266l-.483.483a8.94 8.94 0 0 0-1.307-.546v-.678c0-.658-.426-1.179-.971-1.267v-7.54zm-1.825-9.41a.875.875 0 1 1 0 1.75.875.875 0 0 1 0-1.75zm-2.796 6.603v1.54c0 .614.373 1.105.865 1.242v7.59c-.492.137-.865.628-.865 1.242v.678a8.894 8.894 0 0 0-1.307.546l-.483-.483c-.465-.465-1.135-.532-1.583-.209L38.563 36c.323-.448.256-1.118-.209-1.583l-1.088-1.088a20.982 20.982 0 0 1 10.002-4.144zm-16.649 1.452a.874.874 0 1 1 1.237 1.235.874.874 0 0 1-1.237-1.235zm2.693 6.647l1.088 1.088c.434.434 1.045.517 1.49.266l5.367 5.367c-.251.445-.168 1.056.266 1.49l.483.483a8.94 8.94 0 0 0-.546 1.307h-.678c-.658 0-1.179.426-1.267.971h-7.54c-.088-.545-.609-.971-1.267-.971h-1.54a20.963 20.963 0 0 1 4.144-10.001zm-1.456 32.243a.874.874 0 1 1-1.237-1.235.874.874 0 0 1 1.237 1.235zm2.543-7.735l-1.088 1.088a20.963 20.963 0 0 1-4.144-10.001h1.54c.614 0 1.105-.373 1.242-.865h7.59c.137.492.628.865 1.242.865h.678c.147.453.332.889.546 1.307l-.483.483c-.465.465-.532 1.135-.209 1.583l-5.332 5.332c-.447-.324-1.117-.257-1.582.208zm13.84 6.38c-.545.088-.971.609-.971 1.267v1.54a20.973 20.973 0 0 1-10.001-4.144l1.088-1.088c.434-.434.517-1.045.266-1.49l5.367-5.367c.445.251 1.056.168 1.49-.266l.483-.483a8.94 8.94 0 0 0 1.307.546v.678c0 .658.426 1.179.971 1.267v7.54zm1.825 9.41a.875.875 0 1 1 0-1.75.875.875 0 0 1 0 1.75zm0-24.773a2.727 2.727 0 1 1 0-5.454 2.727 2.727 0 0 1 0 5.454zm2.797 18.17v-1.54c0-.614-.373-1.104-.865-1.242v-7.59c.492-.137.865-.628.865-1.242v-.678a8.894 8.894 0 0 0 1.307-.546l.483.483c.465.465 1.135.532 1.583.209l5.332 5.332c-.323.448-.256 1.118.209 1.583l1.088 1.088a21 21 0 0 1-10.002 4.143zm16.649-1.452a.874.874 0 1 1-1.237-1.235.874.874 0 0 1 1.237 1.235zm-2.693-6.648l-1.088-1.088c-.434-.434-1.045-.517-1.49-.266l-5.367-5.367c.251-.445.168-1.056-.266-1.49l-.483-.483a8.94 8.94 0 0 0 .546-1.307h.678c.658 0 1.179-.426 1.267-.971h7.54c.088.545.609.971 1.267.971h1.54a20.975 20.975 0 0 1-4.144 10.001zm2.604-15.594c-.614 0-1.104.373-1.242.865h-7.59c-.137-.492-.628-.865-1.242-.865h-.678a8.894 8.894 0 0 0-.546-1.307l.483-.483c.465-.465.532-1.135.209-1.583l5.332-5.332c.448.323 1.118.256 1.583-.209l1.088-1.088a20.959 20.959 0 0 1 4.144 10.001h-1.541zm7.268 3.672a.875.875 0 1 1 0-1.75.875.875 0 0 1 0 1.75z"/></svg> Navigation</h2>
+      <ul>
+        <li>
+          <a href="#" class="footer__item" title="RESUM&Eacute;">RESUM&Eacute;</a>
+          <ul>
+            <li><a href="#">Enterprise</a></li>
+            <li><a href="#">Commission</a></li>
+            <li><a href="#">Personal</a></li>
+            <li><a href="#">Educational</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#" class="footer__item" title="GALLERY">GALLERY</a>
+          <ul>
+            <li><a href="#">UI Development</a></li>
+            <li><a href="#">UI Design</a></li>
+            <li><a href="#">Animation/Motion Graphics</a></li>
+            <li><a href="#">Presentations</a></li>
+            <li><a href="#">Print</a></li>
+            <li><a href="#">Illustration</a></li>
+            <li><a href="#">Artwork</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#" class="footer__item" title="BIOGRAPHY">BIOGRAPHY</a>
+          <ul>
+            <li><a href="#">About N.E.Lilly</a></li>
+            <li><a href="#">Personal Statement</a></li>
+            <li><a href="http://nelilly.greententacles.com/">Journal</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Location</a></li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+  </noscript>
+  <section class="site__colophon">
+    <h3>Colophon</h3>
+    <p>This site was made with the intention of being inaccessible. There are accessibility issues in the code both major and minor. Your goal should be to get the code and fix those issues. There is no one right answer, but many wrong ones. This site was made by N.E.Lilly in the Greater Philadelphia area, circa 2019.</p>
+    <ul>
+      <li><a href="https://github.com/nelilly/inaccessible-website">An Inaccessible Website&rsquo;s GitHub Repository</a></li>
+      <li><a href="https://github.com/nelilly/a11y-manual-testing">a11y-manual-testing GitHub Repository</a></li>
+      <li><a href="https://github.com/nelilly/a11y-workflow">a11y-workflow GitHub Repository</a></li>
+    </ul>
+  </section>
+  <section class="site__connect">
+    <h3>Connect</h3>
+    <ul>
+      <li><a href="https://github.com/nelilly" title="GitHub"><svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="48"/></svg></a></li>
+      <li><a href="https://linkedin.com/in/nelilly" title="LinkedIn"><svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="48"/></svg></a></li>
+      <li><a href="https://twitter.com/nelilly" title="Twitter"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M24 4.557a9.83 9.83 0 0 1-2.828.775 4.932 4.932 0 0 0 2.165-2.724 9.864 9.864 0 0 1-3.127 1.195 4.916 4.916 0 0 0-3.594-1.555c-3.179 0-5.515 2.966-4.797 6.045A13.978 13.978 0 0 1 1.671 3.149a4.93 4.93 0 0 0 1.523 6.574 4.903 4.903 0 0 1-2.229-.616c-.054 2.281 1.581 4.415 3.949 4.89a4.935 4.935 0 0 1-2.224.084 4.928 4.928 0 0 0 4.6 3.419A9.9 9.9 0 0 1 0 19.54a13.94 13.94 0 0 0 7.548 2.212c9.142 0 14.307-7.721 13.995-14.646A10.025 10.025 0 0 0 24 4.557z"/></svg></a></li>
+    </ul>
+  </section>
+  <section class="site__terms">
+    <h3>Terms</h3>
+    <ul>
+      <li><a href="#">Privacy Policy</a></li>
+      <li><a href="#">Terms of Use</a></li>
+    </ul>
+  </section>
+  <section id="nav"></section>
+  <section class="site__copyright">
+    <p>&copy;2019 N.E.Lilly | All stories, art, posts, and other content are the copyright of their respective authors.</p>
+  </section>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
