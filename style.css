@@ -61,16 +61,16 @@ html {
   text-rendering: optimizeLegibility;
   word-spacing: 0.1em;
 }
-main {
+.main {
   margin: 0 auto;
   padding: 0;
 }
 @media only screen and (min-width: 660px) {
   html { font-size: 14px; }
-  main { 
+  .main { 
     padding: 0;
   }
-  main > article {
+  .main > article {
     margin: 0 auto;
     max-width: 1200px;
   }
@@ -726,10 +726,8 @@ a.helm__item:focus {
   padding: 1rem 2rem 1rem 1rem;
   width: 40%;
 }
-.hero__blurb h2 {
+.hero__blurb h3 {
   color: rgb(0, 109, 0);
-  font-size: 1.25rem;
-  margin-bottom: 1rem;
 }
 .hero__nav {
   /* width: 20%; */
@@ -933,7 +931,7 @@ a.helm__item:focus {
 
 @media (min-width: 66rem) {
   /* html { font-size: 1.62vw; } */
-  main { 
+  .main { 
     padding: 0;
     display: flex;
     flex-wrap: wrap;
