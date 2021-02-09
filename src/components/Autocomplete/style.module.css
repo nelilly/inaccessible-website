@@ -1,0 +1,99 @@
+.autocomplete {
+  position: relative;
+}
+.autocomplete form {
+  display: flex;
+}
+.autocomplete input {
+  border: 1px solid transparent;
+  background-color: #f1f1f1;
+  padding: 1rem;
+}
+.autocomplete div {
+  width: 100%;
+}
+.autocomplete input[type=text] {
+  background-color: #fff;
+  border: .05rem solid #ccc;
+  width: 100%;
+}
+.autocompleteList {
+  position: absolute;
+  background-color: #fff;
+  border: .05rem solid #ccc;
+  margin: .5rem;
+  padding: 0;
+  z-index: 1;
+  left: 0;
+  right: 0;
+}
+.autocompleteItem {
+  display: block;
+  padding: 0;
+}
+.autocompleteCard {
+  background-color: #fff;
+  border-radius: .3rem;
+  border: 1px solid #ccc;
+  margin: 1rem 0;
+  min-height: 250px;
+  padding: 2rem;
+  text-align: center;
+}
+.autocompleteAction {
+  display: block;
+  padding: .5rem 1rem;
+  border: none;
+  background: transparent;
+}
+.autocompleteItem:hover {
+  background-color: #ddd;
+}
+.autocompleteActive {
+  background-color: DodgerBlue !important;
+  color: #ffffff;
+}
+
+.hide,
+.autocomplete:focus-within .autocompleteList:empty,
+.autocomplete:not(:focus-within) .autocompleteList {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+    
+.orrery {
+  fill: #006;
+}
+
+.first, .second, .third {
+  animation-name: spin;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+  transition-property: opacity;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+  transform-origin: 50% 50%;
+}
+
+.third {
+  animation-duration: 18.75s;
+}
+.second {
+  animation-duration: 11.625s;
+}
+.first {
+  animation-duration: 4.5s;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}

@@ -1,0 +1,108 @@
+.dataTable {
+  border-collapse: collapse;
+  margin-bottom: 4rem;
+  width: 100%;
+}
+
+.dataTable thead {
+  display: none;
+}
+
+.dataTable {
+  border: 0;
+}
+
+.dataTable thead {
+  border: 0;
+}
+
+.dataTable tr {
+  display: flex;
+  flex-flow: column;
+  margin: 2rem;
+}
+
+.dataTable th {
+  border: 0;
+  border-bottom: 1px solid #e4e4e4;
+  padding: 2rem 1rem 1rem;
+}
+
+.dataTable td {
+  border: 0;
+  padding: .5rem;
+}
+
+.dataTable td:last-child {
+  display: block;
+  border-bottom: 1px solid #e4e4e4;
+  width: auto;
+}
+
+.dataTable td:before {
+  content: attr(data-label);
+  display: block;
+  margin-top: .5rem;
+  font-size: .625rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+@media (min-width: 639px) {
+  .dataTable tr {
+    border-top: .15rem solid #666;
+    display: table-row;
+  }
+
+  .dataTable tbody tr:last-of-type {
+    border-bottom: .15rem solid #666;
+  }
+
+  .dataTable thead th {
+    white-space: nowrap;
+  }
+
+  .dataTable th,
+  .dataTable td {
+    padding: 1rem .5rem;
+    text-align: left;
+    vertical-align: top;
+  }
+
+  .dataTable thead {
+    display: table-header-group;
+  }
+
+  .dataTable thead th {
+    width: 15%;
+  }
+
+  .dataTable thead th:nth-of-type(4) {
+    width: 55%;
+  }
+
+  .dataTable td:before {
+    content: none;
+  }
+
+  .dataTable td:last-child {
+    display: block;
+    border-bottom: none;
+    width: auto;
+  }
+
+  .dataTable p {
+    margin: 0 0 1rem;
+  }
+
+  .date {
+    font-size: .9rem;
+    font-weight: 300;
+    margin-bottom: 0;
+  }
+
+  .dateValue {
+    display: block;
+  }
+
+}

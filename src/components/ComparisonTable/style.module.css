@@ -1,0 +1,71 @@
+.table {
+	padding: 3rem;
+}
+
+.table [role=table] {
+	width: 100%;
+}
+
+.table caption {
+	font-size: 2rem;
+	padding-bottom: 1rem;
+	text-align: left;
+}
+
+.table thead {
+	display: none;
+}
+
+.table th { text-align: left; }
+.table tr td:first-child {
+	width: 10%;
+}
+
+.table th, 
+.table td {
+	border-bottom: .05rem solid #ccc;
+	padding: .5rem;
+	width: 100%;
+}
+
+.table th[scope=col] {
+	font-size: 1.5rem;
+	font-weight: normal;
+	padding-bottom: 1rem;
+}
+
+.table tr {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 3rem;
+}
+
+.table td:before {
+  content: attr(data-label);
+  display: block;
+  margin-top: .5rem;
+  font-size: .625rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+@media (min-width: 800px) {
+	.table thead {
+		display: block;
+	}
+	.table tr {
+		display: flex;
+		flex-direction: row;
+		margin-bottom: initial;
+	}
+	.table th, 
+	.table td {
+		border-bottom: .05rem solid #ccc;
+		padding: .5rem;
+		width: 30%;
+	}
+	.table td:before {
+		content: none;
+		display: none;
+	}
+}

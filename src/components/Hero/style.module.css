@@ -1,0 +1,57 @@
+.mainHeader {
+  height: 92vh;
+  overflow: hidden;
+}
+
+.hero {
+  color: #eee;
+  display: flex;
+  position: relative;
+  text-shadow: 0 1px 0 #000, 0 0 1px #000, 0 0 1px #000;
+  width: 100%;
+}
+
+.hero::after {
+  background-attachment: fixed;
+  background-position: bottom;
+  background-size: cover;
+  height: 132vh;
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform: translateZ(3px) scale(1.5);
+  z-index: -1;
+}
+
+.hero h1 {
+  font-family: "Stalemate", script;
+  font-size: 10rem;
+  line-height: 0;
+}
+
+.heroStage {
+  background-color: #0009;
+  border-bottom-left-radius: 2rem;
+  border-top-left-radius: 2rem;
+  position: absolute;
+  left: 15%;
+  top: 66vh;
+  width: 100%;
+}
+
+.heroBlurb {
+  float: left;
+  margin-left: 3rem;
+  padding: 1rem 2rem 1rem 1rem;
+}
+
+.heroBlurb h3 {
+  color: #aaa8f2;
+}
+
+.heroBlurb p {
+  color: #6d6adc;
+}

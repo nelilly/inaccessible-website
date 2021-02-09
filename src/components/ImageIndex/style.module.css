@@ -1,0 +1,23 @@
+.imageIndex {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 0;
+  position: relative;
+}
+
+.imageIndexItem {
+  display: inline-block;
+  flex: 0 0 24%;
+  margin: 0 0 2rem;
+}
+
+.imageIndexImage {
+  height: 15vw;
+  overflow: hidden;
+}
+
+.byline {
+  white-space: nowrap;
+}

@@ -1,0 +1,171 @@
+.tab {
+  display: flex;
+  padding: 2rem 0;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.tabButtons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+}
+
+.tabButton {
+  background-color: transparent;
+  border: none;
+  color: #000;
+  cursor: pointer;
+  font-family: lineto-brown, Futura, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  height: 90px;
+  margin-bottom: -.5rem;
+  padding: 0;
+  outline: none;
+  text-align: left;
+  transition: .3s transform ease-out;
+  transform: scale(.85);
+  width: 90px;
+}
+
+.tabButton > img {
+  border-radius: .3rem;
+  height: 90px;
+  vertical-align: middle;
+  width: 90px;
+}
+
+.tabButton:hover,
+.tabButton:focus {
+  transform: scale(.9);
+}
+
+.tabButton.selected {
+  transform: scale(.9);
+}
+
+.tabButton.selected:hover,
+.tabButton.selected:focus {
+  transform: scale(1);
+}
+
+.platform {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.tabPanel {
+  display: none;
+  outline: none;
+  transition: .5s transform ease-in-out;
+  flex: 1;
+}
+
+.tabPanel img {
+  border-radius: .5rem;
+}
+
+.tabPanel:focus-within {
+  transform: scale(1.0125);
+}
+
+.tabPanel.selected {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card {
+  color: #252525;
+  padding: 0;
+  max-width: 480px;
+  min-height: 800px;
+  position: relative;
+}
+
+.cardTitle {
+  color: #0089cf;
+  font-size: 2rem;
+  font-weight: 400;
+  letter-spacing: .025rem;
+  line-height: 1.33;
+  margin: 0 0 1rem;
+  font-weight: 400;
+}
+
+.logoMark {
+  right: 3rem;
+  position: absolute;
+  top: 3rem;
+  height: 6rem;
+  width: 6rem;
+}
+
+.cta {
+  color: #0089cf;
+  color: #007cbc; /* a11y 4.5 */
+  outline: .2rem solid rgba(255,255,255,0);
+  font-weight: 400;
+  white-space: nowrap;
+}
+
+.cta:after {
+  color: #000;
+  content: "\E900";
+  display: inline-block;
+  font-family: comcorp-icons !important;
+  font-size: 1.5em;
+  margin-left: .5rem;
+  transform: translate(0, 20%);
+  transition: transform 0.2s ease-out;
+}
+
+.cta:hover:after,
+.cta:focus:after {
+  outline: 0px solid #fff0;
+  transform: translate(1.125rem, 20%);
+}
+
+@media (max-width: 639px) {
+  .tab {
+    height: auto;
+    margin-bottom: 0;
+  }
+  .platform {
+    width: 100%;
+  }
+  .tabButtons {
+    display: none;
+  }
+  .tabPanel,
+  .tabPanel.selected {
+    display: block;
+    min-height: auto;
+  }
+  .card {
+    padding: 1.5rem 1.5rem 3rem;
+  }
+  .cardTitle {
+    margin: 0 4rem 1rem 0;
+  }
+  .logoMark {
+    height: 4rem;
+    right: 3%;
+    width: 4rem;
+  }
+}
+
+@keyframes zoom-out {
+  from {
+    transform: scale(1.1) rotate(1deg);
+  }
+
+  to {
+    transform: scale(1);
+  }
+}

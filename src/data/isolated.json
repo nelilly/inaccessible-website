@@ -1,0 +1,88 @@
+{
+  "title": "Inaccessible Sites: Isolated",
+  "tagline": "“From the rooftops.”",
+  "description": "",
+  "carouselImages": [
+    {
+      "title": "Pigeons",
+      "artist": "John F. Sloan",
+      "image": "/images/artists/john_sloan/pigeons.jpg",
+      "source": "https://en.wikipedia.org/wiki/John_Sloan"
+    },
+    {
+      "title": "6 o'clock Winter",
+      "artist": "John F. Sloan",
+      "image": "/images/artists/john_sloan/6oclockWinter1912.jpg",
+      "source": "https://en.wikipedia.org/wiki/John_Sloan"
+    },
+    {
+      "title": "A Woman’s Work",
+      "artist": "John F. Sloan",
+      "image": "/images/artists/john_sloan/awomanswork.jpg",
+      "source": "https://en.wikipedia.org/wiki/John_Sloan"
+    },
+    {
+      "title": "Sunset, West Twenty Third Street",
+      "artist": "John F. Sloan",
+      "image": "/images/artists/john_sloan/sunsetWest23rd.jpg",
+      "source": "https://en.wikipedia.org/wiki/John_Sloan"
+    },
+    {
+      "title": "Sun and Wind on the Roof.jpg",
+      "artist": "John F. Sloan",
+      "image": "/images/artists/john_sloan/sunAndWindOnTheRoof.jpg",
+      "source": "https://en.wikipedia.org/wiki/John_Sloan"
+    }
+  ],
+  "textCarousel": ["Unavailable", "Unreachable", "Untouchable"],
+  "pageImages": [
+    {
+      "title": "Philadelphia, United States",
+      "artist": "Fredy Martinez",
+      "image": "/images/header/fredy-martinez-ou3fG2zWbcs-unsplash.jpg",
+      "source": "https://unsplash.com/@fredymartinez?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText"
+    },
+    {
+      "title": "Melbourne, Australia",
+      "artist": "Annie Spratt",
+      "image": "/images/sections/annie-spratt-6Aj3eKsng8c-unsplash.jpg",
+      "source": "https://unsplash.com/@anniespratt?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText"
+    },
+    {
+      "title": "Pigeons",
+      "artist": "John F. Sloan",
+      "image": "/images/artists/john_sloan/pigeons.jpg",
+      "source": "https://en.wikipedia.org/wiki/John_Sloan"
+    },
+    {
+      "title": "6 o’clock Winter",
+      "artist": "John F. Sloan",
+      "image": "/images/artists/john_sloan/6oclockWinter1912.jpg",
+      "source": "https://en.wikipedia.org/wiki/John_Sloan"
+    },
+    {
+      "title": "A Woman’s Work",
+      "artist": "John F. Sloan",
+      "image": "/images/artists/john_sloan/awomanswork.jpg",
+      "source": "https://en.wikipedia.org/wiki/John_Sloan"
+    },
+    {
+      "title": "Sun and Wind on the Roof",
+      "artist": "John F. Sloan",
+      "image": "/images/artists/john_sloan/sunAndWindOnTheRoof.jpg",
+      "source": "https://en.wikipedia.org/wiki/John_Sloan"
+    },
+    {
+      "title": "Sunset, West Twenty Third Street",
+      "artist": "John F. Sloan",
+      "image": "/images/artists/john_sloan/sunsetWest23rd.jpg",
+      "source": "https://en.wikipedia.org/wiki/John_Sloan"
+    },
+    {
+      "title": "Old Bagan, Myanmar (Burma)",
+      "artist": "Charlie Costello",
+      "image": "/images/nav/charlie-costello-YVMINsxTIKY-unsplash.jpg",
+      "source": "https://unsplash.com/@marilark?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText"
+    }
+  ]
+}

@@ -3,6 +3,8 @@ The [inaccessible website](https://nelilly.github.io/inaccessible-website/) is a
 
 It's primarily intended to be used with the [a11y-manual-testing](https://github.com/nelilly/a11y-manual-testing) and [a11y-workflow](https://github.com/nelilly/a11y-workflow) repositories.
 
+I discovered that once you know good design accessibility design principles, it's very hard to make a bad website.
+
 ## Issues Found in Design
 - Background and foreground colors must have a sufficient contrast ratio.
 

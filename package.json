@@ -1,0 +1,51 @@
+{
+  "name": "inaccessible-website",
+  "version": "1.0.0",
+  "description": "The [inaccessible website](https://nelilly.github.io/inaccessible-website/) is a playground to help designers and developers understand how to test for and remediate potential accessibility issues.",
+  "main": "index.jsx",
+  "scripts": {
+    "dev": "next -p 3001",
+    "build": "next build && next export -o docs && touch docs/.nojekyll",
+    "deploy": "npm run build && git add . && git commit -m \"Deploy docs\" && git push origin main",
+    "start": "next start",
+    "lint": "npm run lint:js",
+    "lint:js": "eslint . --ext js,jsx",
+    "lint:sass": "",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nelilly/inaccessible-website.git"
+  },
+  "author": "Nathan E. Lilly",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nelilly/inaccessible-website/issues"
+  },
+  "homepage": "https://github.com/nelilly/inaccessible-website#readme",
+  "dependencies": {
+    "next": "^10.0.0",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "webpack": "^4.20.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.19.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-react": "^7.22.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "husky": "^4.3.0",
+    "lint-staged": "^10.5.0",
+    "react-svg-loader": "^3.0.3"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.js": "eslint --cache --fix"
+  }
+}

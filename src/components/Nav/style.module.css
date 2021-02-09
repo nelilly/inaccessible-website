@@ -1,0 +1,123 @@
+.siteNavButton {
+  background: none;
+  border: none;
+  color: #fff;
+  height: 3rem;
+  font-size: 3rem;
+  line-height: 0;
+  position: fixed;
+  top: 2rem;
+  right: 2rem;
+  width: 3rem;
+}
+
+.siteNavButton:hover {
+  color: #412c05;
+}
+
+.menu {
+  background-color: #fdbe65;
+  background-image: url('/images/nav/charlie-costello-YVMINsxTIKY-unsplash.jpg');
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+  display: block;
+  fill: currentColor;
+	flex: 1 1 100%;
+  font-family: var(--font-news-body);
+  font-size: 2vw;
+  height: 100vh;
+  left: 0;
+  opacity: 0;
+  padding: 2rem;
+  position: fixed;
+  top: 0;
+	transition: opacity ease-in 500ms, transform linear 500ms;
+	transform: translateY(-100vh);
+  width: 100%;
+  z-index: 100;
+}
+
+.menuAction {
+  border-collapse: collapse;
+  border-bottom: 1px solid #ccc;
+  display: block;
+  padding: 0.2rem 0.4rem;
+}
+
+.menuTitle {
+  border: .2rem solid #fff;
+  display: block;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.menuTitle:hover,
+.menuTitle:focus {
+  border: .2rem solid #b27928;
+}
+
+.menu.open {
+  display: block;
+  opacity: 1;
+  transition: opacity ease-out 500ms, transform linear 500ms;
+	transform: translateY(0);
+}
+
+.menu > h2 {
+  margin: 0;
+  padding: 0;
+}
+.menu > h2 > svg {
+  height: 32px;
+  width: 32px;
+}
+.menu ul {
+  margin: 0;
+  padding: 0;
+}
+.menu > ul {
+  margin: 0;
+  padding: 0;
+}
+.menu li {
+  display: block;
+  margin: 0;
+  padding: .5rem 0;
+}
+.menu a {
+  color: #fff;
+}
+.menu a:hover {
+  color: #412c05;
+  color: #b27928;
+}
+
+
+@media (min-width: 66rem) {
+  .siteNavButton {
+    height: 3rem;
+    font-size: 3rem;
+    width: 3rem;
+  }
+  .menuTitle {
+    margin: 1rem;
+  }
+  .menu > h2 > svg {
+    height: 64px;
+    width: 64px;
+  }
+  .menu > h2 {
+    font-size: 4rem;
+  }
+  .menu > h2 > svg {
+    vertical-align: text-top;
+  }
+  .menu > ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .menu li {
+    flex: 1 1 20%;
+  }
+}

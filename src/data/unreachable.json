@@ -1,0 +1,88 @@
+{
+  "title": "Inaccessible Sites: Unreachable",
+  "tagline": "“Infinity and beyond.”",
+  "description": "",
+  "carouselImages": [
+    {
+      "title": "Starry Night",
+      "artist": "Vincent van Gogh",
+      "image": "/images/artists/vincent_van_gogh/starry_night.jpg",
+      "source": "https://en.wikipedia.org/wiki/Vincent_van_Gogh"
+    },
+    {
+      "title": "Cypresses",
+      "artist": "Vincent van Gogh",
+      "image": "/images/artists/vincent_van_gogh/cypresses.jpg",
+      "source": "https://en.wikipedia.org/wiki/Vincent_van_Gogh"
+    },
+    {
+      "title": "Café Terrace at Night",
+      "artist": "Vincent van Gogh",
+      "image": "/images/artists/vincent_van_gogh/cafe_terrace_at_night.jpg",
+      "source": "https://en.wikipedia.org/wiki/Vincent_van_Gogh"
+    },
+    {
+      "title": "Road with Cypress and Star",
+      "artist": "Vincent van Gogh",
+      "image": "/images/artists/vincent_van_gogh/road_with_cypress_and_star.jpg",
+      "source": "https://en.wikipedia.org/wiki/Vincent_van_Gogh"
+    },
+    {
+      "title": "Starry Night over the Rhone",
+      "artist": "Vincent van Gogh",
+      "image": "/images/artists/vincent_van_gogh/starry_night_over_the_rhone.jpg",
+      "source": "https://en.wikipedia.org/wiki/Vincent_van_Gogh"
+    }
+  ],
+  "textCarousel": ["Unacheivable", "Unobtainable", "Inaccessible"],
+  "pageImages": [
+    {
+      "title": "Pale Blue Dot",
+      "artist": "Voyager (NASA)",
+      "image": "/images/header/voyager_pale_blue_dot.jpg",
+      "source": "https://solarsystem.nasa.gov/resources/536/voyager-1s-pale-blue-dot/"
+    },
+    {
+      "title": "Pale Blue Dot",
+      "artist": "Cassini (NASA)",
+      "image": "/images/sections/cassini_pale_blue_dot.jpg",
+      "source": "https://www.esa.int/ESA_Multimedia/Images/2013/07/Cassini_s_Pale_Blue_Dot"
+    },
+    {
+      "title": "Starry Night",
+      "artist": "Vincent van Gogh",
+      "image": "/images/artists/vincent_van_gogh/starry_night.jpg",
+      "source": "https://en.wikipedia.org/wiki/Vincent_van_Gogh"
+    },
+    {
+      "title": "Cypresses",
+      "artist": "Vincent van Gogh",
+      "image": "/images/artists/vincent_van_gogh/cypresses.jpg",
+      "source": "https://en.wikipedia.org/wiki/Vincent_van_Gogh"
+    },
+    {
+      "title": "Café Terrace at Night",
+      "artist": "Vincent van Gogh",
+      "image": "/images/artists/vincent_van_gogh/cafe_terrace_at_night.jpg",
+      "source": "https://en.wikipedia.org/wiki/Vincent_van_Gogh"
+    },
+    {
+      "title": "Road with Cypress and Star",
+      "artist": "Vincent van Gogh",
+      "image": "/images/artists/vincent_van_gogh/road_with_cypress_and_star.jpg",
+      "source": "https://en.wikipedia.org/wiki/Vincent_van_Gogh"
+    },
+    {
+      "title": "Starry Night over the Rhone",
+      "artist": "Vincent van Gogh",
+      "image": "/images/artists/vincent_van_gogh/starry_night_over_the_rhone.jpg",
+      "source": "https://en.wikipedia.org/wiki/Vincent_van_Gogh"
+    },
+    {
+      "title": "Old Bagan, Myanmar (Burma)",
+      "artist": "Charlie Costello",
+      "image": "/images/nav/charlie-costello-YVMINsxTIKY-unsplash.jpg",
+      "source": "https://unsplash.com/@marilark?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText"
+    }
+  ]
+}

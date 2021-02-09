@@ -1,0 +1,78 @@
+{
+  "title": "Inaccessible Sites: A website with sample accessibility issues",
+  "tagline": "“Nothing to see here.”",
+  "description": "Sights, Sounds, Travel, & Deep thoughts of Remote Locations.",
+  "hikingList": [
+    {
+      "label": "A local map of the area",
+      "checked": false
+    },
+    {
+      "label": "Sunscreen and/or a wide brim hat",
+      "checked": false
+    },
+    {
+      "label": "Water",
+      "checked": false
+    },
+    {
+      "label": "Camping knife and/or multi-tool",
+      "checked": false
+    },
+    {
+      "label": "Boots and extra socks",
+      "checked": false
+    },
+    {
+      "label": "A trash bag (take your garbage away with you!)",
+      "checked": false
+    },
+    {
+      "label": "Camera and/or sketchbook",
+      "checked": false
+    },
+    {
+      "label": "Art supplies for your medium",
+      "checked": false
+    },
+    {
+      "label": "Travel easel",
+      "checked": false
+    },
+    {
+      "label": "Panel box",
+      "checked": false
+    },
+    {
+      "label": "Sealable plastic bags (clean your equipment at home!)",
+      "checked": false
+    }
+  ],
+  "textCarousel": ["Inaccessible", "Inconvenient", "Unattainable"],
+  "pageImages": [
+    {
+      "title": "Pluto’s Cave, Montague, United States",
+      "artist": "Ian Chen",
+      "image": "/images/header/ian-chen-wrrgZwI7qOY_1900.jpg",
+      "source": "https://unsplash.com/@ianchen0?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText"
+    },
+    {
+      "title": "Tonsai, Ao Nang, Thailand",
+      "artist": "Hu Chen",
+      "image": "/images/sections/hu-chen-FZ0qzjVF_-c-unsplash.jpg",
+      "source": "https://unsplash.com/@huchenme?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText"
+    },
+    {
+      "title": "The Connecticut River near Northampton",
+      "artist": "Thomas Cole",
+      "image": "/images/sections/Cole_Thomas_The_Oxbow_1836.jpg",
+      "source": "https://en.wikipedia.org/wiki/The_Oxbow"
+    },
+    {
+      "title": "Old Bagan, Myanmar (Burma)",
+      "artist": "Charlie Costello",
+      "image": "/images/nav/charlie-costello-YVMINsxTIKY-unsplash.jpg",
+      "source": "https://unsplash.com/@marilark?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText"
+    }
+  ]
+}

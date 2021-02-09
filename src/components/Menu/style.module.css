@@ -1,0 +1,70 @@
+.menu {
+  background-color: #fdbe65;
+  background-image: url('/images/places/charlie-costello-YVMINsxTIKY-unsplash.jpg');
+  background-position: center;
+  background-size: cover;
+  color: #eee;
+  display: none;
+  fill: currentColor;
+  flex: 1 1 100%;
+  font-size: 2vw;
+  height: 100vh;
+  left: 0;
+  opacity: 0;
+  padding: 2rem;
+  position: fixed;
+  top: 0;
+  transition: opacity ease-in 500ms;
+  width: 100%;
+  z-index: 100;
+}
+
+.menuAction {
+  border-collapse: collapse;
+  border-bottom: 1px solid #ccc;
+  display: block;
+  padding: 0.2rem 0.4rem;
+}
+
+.menuTitle {
+  border-bottom: 1px solid #fff;
+  display: block;
+  margin: 1rem;
+  text-align: center;
+}
+
+.menu.open {
+  display: block;
+  opacity: 1;
+  transition: opacity ease-out 500ms;
+}
+.menu > h2 {
+  margin: 0;
+  padding: 0;
+}
+.menu > h2 > svg {
+  vertical-align: text-top;
+}
+.menu ul {
+  margin: 1rem 2rem;
+  padding: 0;
+}
+.menu > ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+.menu li {
+  flex: 1 1 25%;
+  display: block;
+  margin: 0;
+  padding: .5rem 0;
+}
+.menu a {
+  color: #eee;
+}
+.menu a:hover {
+  color: #412c05;
+  color: #b27928;
+}

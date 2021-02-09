@@ -1,0 +1,76 @@
+
+.notice {
+  background-color: #eee;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  position: absolute;
+  margin-bottom: -5.5rem;
+  transform: translateY(-16rem);
+  transition: 2s transform ease-in-out;
+  width: 100vw;
+  z-index: -1;
+}
+
+.notice.open {
+  transform: translateY(0rem);
+}
+
+.notice.noticeInfo {
+  background-color: #009c;
+  color: #fff;
+}
+
+.notice.noticeSuccess {
+  background-color: #090c;
+  color: #fff;
+}
+
+.notice.noticeWarning {
+  background-color: #990c;
+  color: #fff;
+}
+
+.notice.noticeError {
+  background-color: #900c;
+  color: #fff;
+}
+
+.notice a {
+  text-decoration: underline;
+}
+
+.notice a:hover,
+.notice.noticeInfo a:hover,
+.notice.noticeSuccess a:hover,
+.notice.noticeWarning a:hover,
+.notice.noticeError a:hover {
+  color: #fff;
+}
+
+.notice.noticeInfo a {
+  color: #00f;
+}
+
+.notice.noticeSuccess a {
+  color: #0f0;
+}
+
+.notice.noticeWarning a {
+  color: #ff0;
+}
+
+.notice.noticeError a {
+  color: #f00;
+}
+
+.noticeButton {
+  cursor: pointer;
+  font-size: 1.5rem;
+  line-height: .5;
+  padding: .5rem;
+}
+
+.noticeButton:hover {
+  color: #003;
+}
