@@ -36,7 +36,7 @@ const Carousel = ({ images }) => {
     <figure className={carouselItem} key={`${item.title}${item.artist}`} style={i === current ? { display: 'block' } : { display: 'none' }}>
       <p className={carouselText}>{i + 1} / {images.length}</p>
       <div className={carouselImage}>
-        <img src={item.image} />
+        <img src={`${process.env.ASSET_PREFIX}${item.image}`} />
       </div>
       <figcaption className={carouselCaption}>&#9755; <em>{item.title}</em> <span className={byline}>by <a href={item.source} target="_blank" rel="noopener noreferrer">{item.artist}</a></span></figcaption>
     </figure>

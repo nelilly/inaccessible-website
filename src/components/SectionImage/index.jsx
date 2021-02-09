@@ -5,7 +5,7 @@ import {
 } from './style.module.css';
 
 const SectionImage = ({ image, transform = 'none', backgroundPosition = 'top center' }) => {
-  const backgroundImage = `url(${image})`;
+  const backgroundImage = `url(${process.env.ASSET_PREFIX}${image})`;
   return (
     <header className={sectionImage} style={{ backgroundImage, backgroundPosition, transform }} />
   );

@@ -17,7 +17,7 @@ const Hero = ({
     <header className={mainHeader}>
       <style>{`
         .${hero}::after {
-          background-image: url(${image});
+          background-image: url(${process.env.ASSET_PREFIX}${image});
         }
       `}
       </style>
