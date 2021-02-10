@@ -23,7 +23,7 @@ const Isolated = () => (
       <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=no" />
     </Head>
     <Layout>
-      <Hero title="Isolated Art" tagline={tagline} description={description} image="/images/header/fredy-martinez-ou3fG2zWbcs-unsplash.jpg" />
+      <Hero title="Isolated Art" tagline={tagline} description={description} image="images/header/fredy-martinez-ou3fG2zWbcs-unsplash.jpg" />
       <article>
 
         <blockquote className="quote">
@@ -31,7 +31,7 @@ const Isolated = () => (
           <p className="quote__citation">&mdash; Herbert Marcuse</p>
         </blockquote>
 
-        <SectionImage image="/images/sections/annie-spratt-6Aj3eKsng8c-unsplash.jpg" />
+        <SectionImage image="images/sections/annie-spratt-6Aj3eKsng8c-unsplash.jpg" />
 
         <section id="philadelphia" className="section">
           <p>When I was young my family moved to the Kensington neighborhood of Philadelphia. I was transfixed by the height of the buildings and the writing on the wall. Artwork would arrive in the night; in the alleys, on billboards, and hanging near the rooftops. I went to middle school at 13th &amp; Susquehanna and this section of the city wasn&rsquo;t very different. I attended high school to earn my Commercial Art diploma just a few blocks away from the intersection of Kensington and Allegheny. There on the streets throughout Philadelphia you could see the desire to make art inaccessible, not strictly born of an impulse to deface the city, but of an impulse to make a mark in the world that would remain. Delinquents, punks, and vandals made art where it couldn&rsquo;t be reached: in the solitude found on the city rooftops. So that someone, hundreds of years later, could read their message, like the ones carved on the parapet of Hagia Sophia... &ldquo;Halfdan carved these runes&rdquo;.</p>
@@ -52,7 +52,7 @@ const Isolated = () => (
 
         <p className="end">&spades;</p>
 
-        <SectionImage image="/images/artists/john_sloan/sunsetWest23rd.jpg" />
+        <SectionImage image="images/artists/john_sloan/sunsetWest23rd.jpg" />
         <TextCarousel words={textCarousel} />
 
         <aside className="main__aside">

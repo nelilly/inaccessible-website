@@ -27,14 +27,14 @@ const Unreachable = () => (
       <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=no" />
     </Head>
     <Layout>
-      <Hero title="Unreachable Art" tagline={tagline} description={description} image="/images/header/voyager_pale_blue_dot.jpg" />
+      <Hero title="Unreachable Art" tagline={tagline} description={description} image="images/header/voyager_pale_blue_dot.jpg" />
       <article>
         <blockquote className="quote">
           <p>There is perhaps no better a demonstration of the folly of human conceits than this distant image of our tiny world.</p>
           <p className="quote__citation">&mdash; Carl Sagan</p>
         </blockquote>
 
-        <SectionImage image="/images/sections/cassini_pale_blue_dot.jpg" backgroundPosition="center center" />
+        <SectionImage image="images/sections/cassini_pale_blue_dot.jpg" backgroundPosition="center center" />
 
         <section id="planetSearch" className="section">
           <p>Character is what you are in the dark, according to Dwight L. Moody. If you&rsquo;ve ever been on a nighttime hike you may know what he means. The solitude; the quiet; the sublime feeling of the evening air. Being just another wanderer, staring into the night sky. And as we stare into the night sky, and we find ourselves.</p>
@@ -132,7 +132,7 @@ const Unreachable = () => (
         </section>
         <p className="end">&spades;</p>
 
-        <SectionImage image="/images/artists/vincent_van_gogh/road_with_cypress_and_star.jpg" />
+        <SectionImage image="images/artists/vincent_van_gogh/road_with_cypress_and_star.jpg" />
         <TextCarousel words={textCarousel} />
 
         <aside className="main__aside">

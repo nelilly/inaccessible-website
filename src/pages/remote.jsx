@@ -32,10 +32,10 @@ const Remote = () => (
           <p className="quote__citation">&mdash; Cory Richards</p>
         </blockquote>
 
-        <SectionImage image="/images/sections/Way_to_Everest_Base_Camp_sign.jpg" />
+        <SectionImage image="images/sections/Way_to_Everest_Base_Camp_sign.jpg" />
 
         <section>
-          <img style={{ display: 'block', margin: '0 auto 4rem', width: '50%' }} src="/images/everest_info/mount_everest.png" alt="infographic" />
+          <img style={{ display: 'block', margin: '0 auto 4rem', width: '50%' }} src={`${process.env.ASSET_PREFIX}images/everest_info/mount_everest.png`} alt="infographic" />
           <DataTable data={climberList} />
         </section>
 
@@ -58,7 +58,7 @@ const Remote = () => (
 
         <p className="end">&spades;</p>
 
-        <SectionImage image="/images/sections/ananya-bilimale-xdvM7wDXZy4-unsplash.jpg" />
+        <SectionImage image="images/sections/ananya-bilimale-xdvM7wDXZy4-unsplash.jpg" />
         <TextCarousel words={textCarousel} />
 
         <aside className="main__aside">

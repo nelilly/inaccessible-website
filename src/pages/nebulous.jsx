@@ -23,14 +23,14 @@ const Distant = () => (
       <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=no" />
     </Head>
     <Layout>
-      <Hero title="Nebulous Art" tagline={tagline} description={description} image="/images/header/michael-weidner-h-rP5KSC2W0-unsplash.jpg" />
+      <Hero title="Nebulous Art" tagline={tagline} description={description} image="images/header/michael-weidner-h-rP5KSC2W0-unsplash.jpg" />
       <article>
         <blockquote className="quote">
           <p>Nature is beautiful because it looks like Art; and Art can only be called beautiful if we are conscious of it as Art while yet it looks like Nature.</p>
           <p className="quote__citation">&mdash; Immanuel Kant</p>
         </blockquote>
 
-        <SectionImage image="/images/sections/sean-thoman-S4zOFuEGZmw-unsplash.jpg" />
+        <SectionImage image="images/sections/sean-thoman-S4zOFuEGZmw-unsplash.jpg" />
 
         <section id="clouds" className="section">
           <p>Technological leaps in the 19th century made the artist’s supplies and materials more portable than ever before and allowed the artist to get out of the studio to places previously undreamt of. The invention of tin tubes in 1841 — coinciding with the development of portable canvases, box easels, and pochade boxes — allowed artists to organize a portable studio so that they could paint directly from the landscape: <em>En plein air</em> (French for “outdoors”), or as it’s frequently called <em>Plein Air</em> painting.</p>
@@ -55,7 +55,7 @@ const Distant = () => (
 
         <p className="end">&spades;</p>
 
-        <SectionImage image="/images/artists/caspar_david_friedrich/wanderer_above_the_sea_of_fog.jpg" backgroundPosition="center center" />
+        <SectionImage image="images/artists/caspar_david_friedrich/wanderer_above_the_sea_of_fog.jpg" backgroundPosition="center center" />
         <TextCarousel words={textCarousel} />
 
         <aside className="main__aside">

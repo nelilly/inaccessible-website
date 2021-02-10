@@ -53,25 +53,25 @@
     {
       "title": "Pluto’s Cave, Montague, United States",
       "artist": "Ian Chen",
-      "image": "/images/header/ian-chen-wrrgZwI7qOY_1900.jpg",
+      "image": "images/header/ian-chen-wrrgZwI7qOY_1900.jpg",
       "source": "https://unsplash.com/@ianchen0?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText"
     },
     {
       "title": "Tonsai, Ao Nang, Thailand",
       "artist": "Hu Chen",
-      "image": "/images/sections/hu-chen-FZ0qzjVF_-c-unsplash.jpg",
+      "image": "images/sections/hu-chen-FZ0qzjVF_-c-unsplash.jpg",
       "source": "https://unsplash.com/@huchenme?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText"
     },
     {
       "title": "The Connecticut River near Northampton",
       "artist": "Thomas Cole",
-      "image": "/images/sections/Cole_Thomas_The_Oxbow_1836.jpg",
+      "image": "images/sections/Cole_Thomas_The_Oxbow_1836.jpg",
       "source": "https://en.wikipedia.org/wiki/The_Oxbow"
     },
     {
       "title": "Old Bagan, Myanmar (Burma)",
       "artist": "Charlie Costello",
-      "image": "/images/nav/charlie-costello-YVMINsxTIKY-unsplash.jpg",
+      "image": "images/nav/charlie-costello-YVMINsxTIKY-unsplash.jpg",
       "source": "https://unsplash.com/@marilark?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText"
     }
   ]

@@ -22,14 +22,14 @@ const Home = () => (
       <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=no" />
     </Head>
     <Layout>
-      <Hero title="Inaccessible Art" tagline={tagline} description={description} image="/images/header/ian-chen-wrrgZwI7qOY_1900.jpg" />
+      <Hero title="Inaccessible Art" tagline={tagline} description={description} image="images/header/ian-chen-wrrgZwI7qOY_1900.jpg" />
       <article>
         <div className="quote">
           <p>From inaccessible mountain range by way of desert untrod by human foot to the ends of the unknown seas, the breath of the everlasting creative spirit is felt, rejoicing over every speck of dust that hearkens to it and lives.</p>
           <p className="quote__citation">&mdash; Johann Wolfgang von Goethe</p>
         </div>
 
-        <SectionImage image="/images/sections/hu-chen-FZ0qzjVF_-c-unsplash.jpg" backgroundPosition="center center" transform="scaleX(-1)" />
+        <SectionImage image="images/sections/hu-chen-FZ0qzjVF_-c-unsplash.jpg" backgroundPosition="center center" transform="scaleX(-1)" />
 
         <div className="section">
           <p>People often ask me why I strap art supplies onto my back &mdash; canvas and paper, a travel easel, the variety of paints and charcoals, brushes and turpenoids and mediums &mdash; in a 20 pound kit of avante-garde <em>materiel</em> to be hauled to remote locations, just to make <em>art</em>? I could say that I feel that, when I&rsquo;m on the mountain top, that I&rsquo;m full of potential. That I&rsquo;m inspired by the Hudson River School. Maybe I&rsquo;ve read <a href="https://www.amazon.com/John-Sloan-Drawing-Painting/dp/0486409473/">John French Sloan&rsquo;s <em>The Gist of Art</em></a> one too many times? And I&rsquo;m attempting to make another painting. Another landscape titled: <em>I was in Montauk Point in June; and nature was pretty; the sun threw purple shadows north-northwest.</em></p>
@@ -45,7 +45,7 @@ const Home = () => (
 
         <section className="section">
           <h2>Artist&rsquo;s Hiking Equipment</h2>
-          <img src="/images/travel_kits/camille_pissarro.jpg" alt="Camille Pissarro" />
+          <img src={`${process.env.ASSET_PREFIX}images/travel_kits/camille_pissarro.jpg`} alt="Camille Pissarro" />
           <Todo
             title="Art Hike Prep List"
             list={hikingList}
@@ -70,7 +70,7 @@ const Home = () => (
           </ol>
         </section>
 
-        <SectionImage image="/images/sections/Cole_Thomas_The_Oxbow_1836.jpg" />
+        <SectionImage image="images/sections/Cole_Thomas_The_Oxbow_1836.jpg" />
         <TextCarousel words={textCarousel} />
 
         <aside className="main__aside">
