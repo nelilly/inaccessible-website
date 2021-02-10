@@ -45,7 +45,7 @@ const Home = () => (
 
         <section className="section">
           <h2>Artist&rsquo;s Hiking Equipment</h2>
-          <img src={`${process.env.ASSET_PREFIX}images/travel_kits/camille_pissarro.jpg`} alt="Camille Pissarro" />
+          <img src={`${process.env.ASSET_PREFIX}/images/travel_kits/camille_pissarro.jpg`} alt="Camille Pissarro" />
           <Todo
             title="Art Hike Prep List"
             list={hikingList}
