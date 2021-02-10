@@ -27,22 +27,22 @@ const Nav = () => {
         <h2><svg height="64" width="64" viewBox="0 0 100 100"><use href="#helm" /></svg> Navigation</h2>
         <ul>
           <li>
-            <Link href="/"><a className={`${menuItem} ${menuTitle}`}>Home</a></Link>
+            <Link href={`${process.env.ASSET_PREFIX}/`}><a className={`${menuItem} ${menuTitle}`}>Home</a></Link>
           </li>
           <li>
-            <Link href="/isolated/"><a className={`${menuItem} ${menuTitle}`}>Isolated</a></Link>
+            <Link href={`${process.env.ASSET_PREFIX}/isolated/`}><a className={`${menuItem} ${menuTitle}`}>Isolated</a></Link>
           </li>
           <li>
-            <Link href="/remote/"><a className={`${menuItem} ${menuTitle}`}>Remote</a></Link>
+            <Link href={`${process.env.ASSET_PREFIX}/remote/`}><a className={`${menuItem} ${menuTitle}`}>Remote</a></Link>
           </li>
           <li>
-            <Link href="/nebulous/"><a className={`${menuItem} ${menuTitle}`}>Nebulous</a></Link>
+            <Link href={`${process.env.ASSET_PREFIX}/nebulous/`}><a className={`${menuItem} ${menuTitle}`}>Nebulous</a></Link>
           </li>
           <li>
-            <Link href="/unreachable/"><a className={`${menuItem} ${menuTitle}`}>Unreachable</a></Link>
+            <Link href={`${process.env.ASSET_PREFIX}/unreachable/`}><a className={`${menuItem} ${menuTitle}`}>Unreachable</a></Link>
           </li>
           <li>
-            <Link href="/colophon/"><a className={`${menuItem} ${menuTitle}`}>Colophon</a></Link>
+            <Link href={`${process.env.ASSET_PREFIX}/colophon/`}><a className={`${menuItem} ${menuTitle}`}>Colophon</a></Link>
             <ul>
               <li><Link href="https://lilly.art/" target="_blank" rel="noopener noreferrer">About N.E.Lilly</Link></li>
             </ul>

@@ -35,7 +35,7 @@ const TabList = ({ items }) => {
       <div className={card}>
         {item.title && <h3 className={cardTitle}>{item.title}</h3>}
         {item.byline && <p className={cardDescription}>by {item.byline}</p>}
-        <img src={`${process.env.ASSET_PREFIX}${item.image}`} alt={item.title} />
+        <img src={`${process.env.ASSET_PREFIX}/${item.image}`} alt={item.title} />
         {item.description && <p className={cardDescription}>{item.description}</p>}
         {item.cta && <p className="cardCta">{item.cta.lead}<Link href={updateUrl(item.cta.url)}><a href={updateUrl(item.cta.url)} className={cta}>{item.cta.label}</a></Link></p>}
       </div>
