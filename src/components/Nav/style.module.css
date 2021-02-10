@@ -35,6 +35,7 @@
 	transition: opacity ease-in 500ms, transform linear 500ms;
 	transform: translateY(-100vh);
   width: 100%;
+  will-change: opacity, transform;
   z-index: 100;
 }
 
