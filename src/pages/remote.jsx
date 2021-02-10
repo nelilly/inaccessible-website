@@ -35,7 +35,7 @@ const Remote = () => (
         <SectionImage image="images/sections/Way_to_Everest_Base_Camp_sign.jpg" />
 
         <section>
-          <img style={{ display: 'block', margin: '0 auto 4rem', width: '50%' }} src={`${process.env.ASSET_PREFIX}images/everest_info/mount_everest.png`} alt="infographic" />
+          <img style={{ display: 'block', margin: '0 auto 4rem', width: '50%' }} src={`${process.env.ASSET_PREFIX}/images/everest_info/mount_everest.png`} alt="infographic" />
           <DataTable data={climberList} />
         </section>
 

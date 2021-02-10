@@ -26,7 +26,7 @@ const TabList = ({ items }) => {
       onClick={() => setCurrentItem(item.image)}
       type="button"
     >
-      <img src={`${process.env.ASSET_PREFIX}${item.image}`} height="90" width="90" alt="" />
+      <img src={`${process.env.ASSET_PREFIX}/${item.image}`} height="90" width="90" alt="" />
     </button>
   ));
 
