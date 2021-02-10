@@ -13,7 +13,7 @@ const Nav = () => {
 
   return (
     <nav className="helm">
-      <Link href="/"><a className="helm__item helm__title">Inaccessible Sites</a></Link>
+      <Link href={`${process.env.ASSET_PREFIX}/`}><a className="helm__item helm__title">Inaccessible Sites</a></Link>
       <a href="#" id="main_nav" className="helm__item" onClick={(event) => { setOpen(!open); event.preventDefault(); }}>
         <svg xmlns="http://www.w3.org/2000/svg" height="32" width="32" viewBox="0 0 100 100">
           <defs>
