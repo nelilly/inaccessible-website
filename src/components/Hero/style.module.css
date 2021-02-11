@@ -28,7 +28,7 @@
 
 .hero h1 {
   font-family: "Stalemate", script;
-  font-size: 10rem;
+  font-size: 6rem;
   line-height: 0;
 }
 
@@ -54,4 +54,10 @@
 
 .heroBlurb p {
   color: #6d6adc;
+}
+
+@media (min-width: 66rem) {
+  .hero h1 {
+    font-size: 10rem;
+  }
 }

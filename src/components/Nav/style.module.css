@@ -31,9 +31,9 @@
   opacity: 0;
   padding: 2rem;
   position: fixed;
-  top: 0;
+  top: -100vh;
 	transition: opacity ease-in 500ms, transform linear 500ms;
-	transform: translateY(-100vh);
+	transform: translateY(0vh);
   width: 100%;
   will-change: opacity, transition;
   z-index: 100;
@@ -62,7 +62,7 @@
   display: block;
   opacity: 1;
   transition: opacity ease-out 500ms, transform linear 500ms;
-	transform: translateY(0);
+	transform: translateY(100vh);
 }
 
 .menu > h2 {
@@ -93,7 +93,6 @@
   color: #412c05;
   color: #b27928;
 }
-
 
 @media (min-width: 66rem) {
   .siteNavButton {
