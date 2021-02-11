@@ -16,7 +16,6 @@ const Notice = ({ message, level }) => {
   const navOpenRef = useRef(null);
 
   useEffect(() => {
-    console.log('SET', localStorage.getItem('noticeOpen'), open)
     if (localStorage.getItem('noticeOpen') !== 'closed') {
       setTimeout(() => setOpen('open'), 2000);
     }
