@@ -27,7 +27,7 @@ const Unreachable = () => (
       <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=no" />
     </Head>
     <Layout>
-      <Hero title="Unreachable Art" tagline={tagline} description={description} image="images/header/voyager_pale_blue_dot.jpg" />
+      <Hero title="Unreachable Art" tagline={tagline} description={description} color="#040a18" image="images/header/voyager_pale_blue_dot.jpg" />
       <article>
         <blockquote className="quote">
           <p>There is perhaps no better a demonstration of the folly of human conceits than this distant image of our tiny world.</p>

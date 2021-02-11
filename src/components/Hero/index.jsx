@@ -10,6 +10,7 @@ import {
 const Hero = ({
   title,
   tagline,
+  color = '#000',
   description,
   image,
 }) => (
@@ -17,6 +18,7 @@ const Hero = ({
     <header className={mainHeader}>
       <style>{`
         .${hero}::after {
+          background-color: ${color};
           background-image: url(${process.env.ASSET_PREFIX}/${image});
         }
       `}
@@ -39,6 +41,7 @@ export default Hero;
 Hero.propTypes = {
   title: PropTypes.string.isRequired,
   tagline: PropTypes.string.isRequired,
+  color: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
   image: PropTypes.string.isRequired,
 };

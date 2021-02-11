@@ -23,7 +23,7 @@ const Distant = () => (
       <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=no" />
     </Head>
     <Layout>
-      <Hero title="Nebulous Art" tagline={tagline} description={description} image="images/header/michael-weidner-h-rP5KSC2W0-unsplash.jpg" />
+      <Hero title="Nebulous Art" tagline={tagline} description={description} color="#a75234" image="images/header/michael-weidner-h-rP5KSC2W0-unsplash.jpg" />
       <article>
         <blockquote className="quote">
           <p>Nature is beautiful because it looks like Art; and Art can only be called beautiful if we are conscious of it as Art while yet it looks like Nature.</p>

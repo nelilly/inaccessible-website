@@ -23,7 +23,7 @@ const Isolated = () => (
       <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=no" />
     </Head>
     <Layout>
-      <Hero title="Isolated Art" tagline={tagline} description={description} image="images/header/fredy-martinez-ou3fG2zWbcs-unsplash.jpg" />
+      <Hero title="Isolated Art" tagline={tagline} description={description} color="#f9b986" image="images/header/fredy-martinez-ou3fG2zWbcs-unsplash.jpg" />
       <article>
 
         <blockquote className="quote">

@@ -24,7 +24,7 @@ const Remote = () => (
       <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=no" />
     </Head>
     <Layout>
-      <Hero title="Remote Art" tagline={tagline} description={description} image="/images/header/sebastian-pena-lambarri-VEXstplvBxs-unsplash.jpg" />
+      <Hero title="Remote Art" tagline={tagline} description={description} color="#73b3f3" image="/images/header/sebastian-pena-lambarri-VEXstplvBxs-unsplash.jpg" />
       <article>
 
         <blockquote className="quote">

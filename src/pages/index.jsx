@@ -22,7 +22,7 @@ const Home = () => (
       <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=no" />
     </Head>
     <Layout>
-      <Hero title="Inaccessible Art" tagline={tagline} description={description} image="images/header/ian-chen-wrrgZwI7qOY_1900.jpg" />
+      <Hero title="Inaccessible Art" tagline={tagline} description={description} color="#4f3923" image="images/header/ian-chen-wrrgZwI7qOY_1900.jpg" />
       <article>
         <div className="quote">
           <p>From inaccessible mountain range by way of desert untrod by human foot to the ends of the unknown seas, the breath of the everlasting creative spirit is felt, rejoicing over every speck of dust that hearkens to it and lives.</p>
