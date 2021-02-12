@@ -1,5 +1,5 @@
 .mainHeader {
-  height: 92vh;
+  height: 75vh;
   overflow: hidden;
 }
 
@@ -14,7 +14,7 @@
 .hero::after {
   background-position: bottom;
   background-size: cover;
-  height: 132vh;
+  height: 66vh;
   content: '';
   position: absolute;
   top: 0;
@@ -55,11 +55,15 @@
 }
 
 @media (min-width: 66rem) {
+  .mainHeader {
+    height: 92vh;
+  }
   .hero h1 {
     font-size: 10rem;
   }
   .hero::after {
     background-attachment: fixed;
+    height: 132vh;
   }
   .heroBlurb {
     margin-left: 3rem;

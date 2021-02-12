@@ -8,13 +8,13 @@
 }
 
 .imageIndexItem {
-  flex: 0 0 55%;
+  flex: 0 0 70%;
   margin: 0;
   padding: 1rem;
 }
 
 .imageIndexImage {
-  height: 30vw;
+  height: 42vw;
   overflow: hidden;
 }
 
