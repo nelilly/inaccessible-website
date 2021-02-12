@@ -1,9 +1,14 @@
 .sectionImage {
-  background-attachment: fixed;
   background-color: #0002;
 	background-image: url('/images/places/hu-chen-FZ0qzjVF_-c-unsplash.jpg');
 	background-position: top center;
 	background-size: cover;
 	height: 60vh;
 	margin: 2rem 0;
+}
+
+@media (min-width: 66rem) {
+	.sectionImage {
+		background-attachment: fixed;
+	}
 }

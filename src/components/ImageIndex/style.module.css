@@ -1,23 +1,38 @@
 .imageIndex {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
-  margin: 0 auto;
+  margin: 0 -1rem;
   padding: 0;
   position: relative;
+  overflow: scroll;
 }
 
 .imageIndexItem {
-  display: inline-block;
-  flex: 0 0 24%;
-  margin: 0 0 2rem;
+  flex: 0 0 55%;
+  margin: 0;
+  padding: 1rem;
 }
 
 .imageIndexImage {
-  height: 15vw;
+  height: 30vw;
   overflow: hidden;
 }
 
 .byline {
   white-space: nowrap;
+}
+
+@media (min-width: 66rem) {
+  .imageIndex {
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+  .imageIndexItem {
+    display: inline-block;
+    flex: 0 0 24%;
+    margin: 0 0 2rem;
+  }
+  .imageIndexImage {
+    height: 15vw;
+  }
 }

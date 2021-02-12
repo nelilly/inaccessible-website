@@ -84,7 +84,6 @@
   color: #252525;
   padding: 0;
   max-width: 480px;
-  min-height: 800px;
   position: relative;
 }
 
@@ -157,6 +156,12 @@
     height: 4rem;
     right: 3%;
     width: 4rem;
+  }
+}
+
+@media (min-width: 66rem) {
+  .card {
+    min-height: 800px;
   }
 }
 
